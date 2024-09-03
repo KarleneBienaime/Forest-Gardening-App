@@ -6,11 +6,11 @@ Language: Kotlin/Java IDE: Android Studio Framework: Android SDK Database: SQLit
 
 Planned Features:
 
-    Companion Planting Advisor: Get recommendations for plant combinations that work well together.
-    Seasonal Planting Calendar: Plan your gardening activities throughout the year with customized reminders.
-    Virtual Garden Simulator: Visualize your garden's growth over time based on your plant selections.
-    Food Forest Design Templates: Access pre-made templates and guidelines for creating a food forest.
-    Biodiversity Calculator: Estimate the wildlife attraction and biodiversity potential of your garden design.
-    Weather Integration: Receive local weather data to inform your gardening decisions.
+-Companion Planting Advisor: Get recommendations for plant combinations that work well together.
+-Seasonal Planting Calendar: Plan your gardening activities throughout the year with customized reminders.
+-Virtual Garden Simulator: Visualize your garden's growth over time based on your plant selections.
+-Food Forest Design Templates: Access pre-made templates and guidelines for creating a food forest.
+-Biodiversity Calculator: Estimate the wildlife attraction and biodiversity potential of your garden design.
+-Weather Integration: Receive local weather data to inform your gardening decisions.
 
 Usage & Resources: -Open Weather Map for providing weather data.
