@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.forestgardeningapp
 
 import android.content.Context
 import android.util.AttributeSet

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="Brown">#A57160</color>
+    <color name="DBrown">#462819</color>
     <color name="Yellow">#FFFDE74C</color>
     <color name="Orange">#F9A825</color>
     <color name="Salmon">#2E4F2E</color>

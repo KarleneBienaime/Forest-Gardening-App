@@ -1,25 +1,216 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    android:background="@color/Brown">
 
-    <include
-        android:id="@+id/app_bar_main"
-        layout="@layout/app_bar_main"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-    <com.google.android.material.navigation.NavigationView
+    <com.example.forestgardeningapp.WeatherView
+        android:id="@+id/weather_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/weather_view"
+        app:layout_constraintBottom_toTopOf="@id/nav_view"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:id="@+id/garden_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            app:columnCount="5">
+
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background4"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background2"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background3"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background2"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background4"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background5"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background3"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background2"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background3"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background2"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background5"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background3"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background5"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="10dp"
+                android:layout_height="100dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background4"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+            </FrameLayout>
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/plot_background4"
+                android:foreground="@drawable/ic_add_box"
+                android:foregroundTint="@color/DBrown"
+                android:importantForAccessibility="no"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1" />
+
+        </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer" />
-</androidx.drawerlayout.widget.DrawerLayout>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

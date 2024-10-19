@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.forestgardeningapp
 
 import retrofit2.http.GET
 import retrofit2.http.Query

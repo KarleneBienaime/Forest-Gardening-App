@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Forest Gardening App</string>
     <string name="welcome">Welcome!</string>
     <string name="title_home">home</string>
     <string name="title_dashboard">plot</string>
