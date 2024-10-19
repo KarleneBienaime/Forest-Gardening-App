@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/orange_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/orange_seeds" />
+
+    <item
+        android:id="@+id/tomatoes_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/tomatoes_seeds" />
+
+    <item
+        android:id="@+id/bell_pepper_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/bell_pepper_seeds" />
+
+    <item
+        android:id="@+id/basil_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/basil_seeds" />
+
+    <item
+        android:id="@+id/rosemary_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/rosemary_seeds" />
+
+    <item
+        android:id="@+id/thyme_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/thyme_seeds" />
+
+    <item
+        android:id="@+id/oregano_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/oregano_seeds" />
+
+    <item
+        android:id="@+id/mint_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/mint_seeds" />
+
+    <item
+        android:id="@+id/strawberries_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/strawberries_seeds" />
+
+    <item
+        android:id="@+id/avocados_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/avocados_seeds" />
+
+    <item
+        android:id="@+id/mangoes_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/mangoes_seeds" />
+
+    <item
+        android:id="@+id/papayas_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/papayas_seeds" />
+
+    <item
+        android:id="@+id/sweet_potatoes_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/sweet_potatoes_seeds" />
+
+    <item
+        android:id="@+id/lettuce_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/lettuce_seeds" />
+
+    <item
+        android:id="@+id/green_beans_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/green_beans_seeds" />
+
+    <item
+        android:id="@+id/cucumbers_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/cucumbers_seeds" />
+
+    <item
+        android:id="@+id/eggplant_seeds"
+        android:icon="@drawable/ic_plant"
+        android:title="@string/eggplant_seeds" />
+</menu>
