@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967924237572",
+    "project_id": "forest-gardening-app",
+    "storage_bucket": "forest-gardening-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967924237572:android:3a09b12bbdf3cc8c2abc51",
+        "android_client_info": {
+          "package_name": "com.example.forestgardeningapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFEqcJAZldhGjWOfowVFAiC2jgagZwWJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
