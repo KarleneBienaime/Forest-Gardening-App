@@ -1,13 +1,28 @@
 <resources>
-    <string name="app_name">ForestGardeningApp</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="app_name">My Application</string>
+    <string name="welcome">Welcome!</string>
+    <string name="title_home">home</string>
+    <string name="title_dashboard">plot</string>
+    <string name="title_notifications">notifications</string>
+    <string name="orange_seeds">orange_seeds</string>
+    <string name="tomatoes_seeds">tomatoes seeds</string>
+    <string name="bell_pepper_seeds">bell pepper seeds</string>
+    <string name="basil_seeds">basil_seeds</string>
+    <string name="rosemary_seeds">rosemary seeds</string>
+    <string name="thyme_seeds">thyme seeds</string>
+    <string name="eggplant_seeds">eggplant seeds</string>
+    <string name="cucumbers_seeds">cucumbers seeds</string>
+    <string name="green_beans_seeds" >green beans seeds</string>
+    <string name="lettuce_seeds" >lettuce seeds</string>
+    <string name="sweet_potatoes_seeds">sweet potatoes seeds</string>
+    <string name="papayas_seeds">papayas seeds </string>
+    <string name="mangoes_seeds">mangoes seeds</string>
+    <string name="avocados_seeds">avocados seeds</string>
+    <string name="strawberries_seeds">strawberries seeds</string>
+    <string name="mint_seeds">mint seeds</string>
+    <string name="oregano_seeds">oregano seeds</string>
+    <string name="weather_icon">Weather Icon</string>
+    <string name="current_weather">Current Weather</string>
+    <string name="c">--°C</string>
+    <string name="weather_description">Weather Description: --</string>
 </resources>
