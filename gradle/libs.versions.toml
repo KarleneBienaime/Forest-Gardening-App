@@ -18,6 +18,7 @@ navigationFragmentKtx = "2.8.3"
 playServicesLocation = "21.0.1"
 retrofit = "2.9.0"
 gridlayout = "1.0.0"
+firebaseAuthKtx = "23.0.0"
 
 [libraries]
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
@@ -49,6 +50,7 @@ material = { group = "com.google.android.material", name = "material", version.r
 play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 androidx-gridlayout = { group = "androidx.gridlayout", name = "gridlayout", version.ref = "gridlayout" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

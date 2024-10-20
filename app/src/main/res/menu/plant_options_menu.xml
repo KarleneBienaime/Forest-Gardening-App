@@ -1,88 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tomatoes"
+        android:icon="@drawable/seed"
+        android:title="@string/tomatoes" />
 
     <item
-        android:id="@+id/orange_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/orange_seeds" />
+        android:id="@+id/bell_pepper"
+        android:icon="@drawable/seed"
+        android:title="@string/bell_pepper" />
 
     <item
-        android:id="@+id/tomatoes_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/tomatoes_seeds" />
+        android:id="@+id/basil"
+        android:icon="@drawable/seed"
+        android:title="@string/basil" />
 
     <item
-        android:id="@+id/bell_pepper_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/bell_pepper_seeds" />
+        android:id="@+id/rosemary"
+        android:icon="@drawable/seed"
+        android:title="@string/rosemary" />
 
     <item
-        android:id="@+id/basil_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/basil_seeds" />
+        android:id="@+id/thyme"
+        android:icon="@drawable/seed"
+        android:title="@string/thyme" />
 
     <item
-        android:id="@+id/rosemary_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/rosemary_seeds" />
+        android:id="@+id/oregano"
+        android:icon="@drawable/seed"
+        android:title="@string/oregano" />
 
     <item
-        android:id="@+id/thyme_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/thyme_seeds" />
+        android:id="@+id/mint"
+        android:icon="@drawable/seed"
+        android:title="@string/mint" />
 
     <item
-        android:id="@+id/oregano_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/oregano_seeds" />
+        android:id="@+id/strawberries"
+        android:icon="@drawable/seed"
+        android:title="@string/strawberries" />
 
     <item
-        android:id="@+id/mint_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/mint_seeds" />
+        android:id="@+id/lettuce"
+        android:icon="@drawable/seed"
+        android:title="@string/lettuce" />
 
     <item
-        android:id="@+id/strawberries_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/strawberries_seeds" />
+        android:id="@+id/green_beans"
+        android:icon="@drawable/seed"
+        android:title="@string/green_beans" />
 
     <item
-        android:id="@+id/avocados_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/avocados_seeds" />
+        android:id="@+id/cucumbers"
+        android:icon="@drawable/seed"
+        android:title="@string/cucumbers" />
 
     <item
-        android:id="@+id/mangoes_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/mangoes_seeds" />
+        android:id="@+id/eggplant"
+        android:icon="@drawable/seed"
+        android:title="@string/eggplant" />
 
     <item
-        android:id="@+id/papayas_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/papayas_seeds" />
-
-    <item
-        android:id="@+id/sweet_potatoes_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/sweet_potatoes_seeds" />
-
-    <item
-        android:id="@+id/lettuce_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/lettuce_seeds" />
-
-    <item
-        android:id="@+id/green_beans_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/green_beans_seeds" />
-
-    <item
-        android:id="@+id/cucumbers_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/cucumbers_seeds" />
-
-    <item
-        android:id="@+id/eggplant_seeds"
-        android:icon="@drawable/ic_plant"
-        android:title="@string/eggplant_seeds" />
+        android:id="@+id/potatoes"
+        android:icon="@drawable/seed"
+        android:title="@string/potatoes" />
 </menu>

@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 
-public class WeatherView @JvmOverloads constructor(
+class WeatherView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
@@ -27,17 +27,11 @@ public class WeatherView @JvmOverloads constructor(
 
         // Set a background color to make the view visible
         setBackgroundColor(ContextCompat.getColor(context, android.R.color.white))
-
-        // Set a minimum height to ensure the view is visible
-        minimumHeight = 200 // Adjust this value as needed
     }
 
-    fun updateWeatherInfo(temp: String, desc: String) {
-        temperature.text = temp
-        weatherDescription.text = desc
-    }
-
-    fun setWeatherIcon(iconResId: Int) {
-        weatherIcon.setImageResource(iconResId)
+    fun updateWeatherInfo(temp: String, description: String, iconResource: Int) {
+        temperature.text = "$temp°C"
+        weatherDescription.text = description
+        weatherIcon.setImageResource(iconResource)
     }
 }

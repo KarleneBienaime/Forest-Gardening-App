@@ -10,4 +10,9 @@
     <color name="Gray">#FF4C5B5C</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="incompatible_plant_fill">#80FF0000</color> <!-- Red with 50% opacity -->
+    <color name="companion_plant_fill">#8000FF00</color> <!-- Green with 50% opacity -->
+    <color name="grid_border">#000000</color>
+    <color name="companion_plant_border">#4CAF50</color> <!-- Green -->
+    <color name="incompatible_plant_border">#FF5722</color> <!-- Red-Orange -->
 </resources>

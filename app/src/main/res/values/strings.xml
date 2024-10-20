@@ -4,25 +4,27 @@
     <string name="title_home">home</string>
     <string name="title_dashboard">plot</string>
     <string name="title_notifications">notifications</string>
-    <string name="orange_seeds">orange_seeds</string>
-    <string name="tomatoes_seeds">tomatoes seeds</string>
-    <string name="bell_pepper_seeds">bell pepper seeds</string>
-    <string name="basil_seeds">basil_seeds</string>
-    <string name="rosemary_seeds">rosemary seeds</string>
-    <string name="thyme_seeds">thyme seeds</string>
-    <string name="eggplant_seeds">eggplant seeds</string>
-    <string name="cucumbers_seeds">cucumbers seeds</string>
-    <string name="green_beans_seeds" >green beans seeds</string>
-    <string name="lettuce_seeds" >lettuce seeds</string>
-    <string name="sweet_potatoes_seeds">sweet potatoes seeds</string>
-    <string name="papayas_seeds">papayas seeds </string>
-    <string name="mangoes_seeds">mangoes seeds</string>
-    <string name="avocados_seeds">avocados seeds</string>
-    <string name="strawberries_seeds">strawberries seeds</string>
-    <string name="mint_seeds">mint seeds</string>
-    <string name="oregano_seeds">oregano seeds</string>
+
+
     <string name="weather_icon">Weather Icon</string>
     <string name="current_weather">Current Weather</string>
     <string name="c">--°C</string>
-    <string name="weather_description">Weather Description: --</string>
+    <string name="weather_description">Weather Description: —</string>
+    <string name="tomatoes">Tomatoes</string>
+    <string name="bell_pepper">Bell Pepper</string>
+    <string name="basil">Basil</string>
+    <string name="rosemary">Rosemary</string>
+    <string name="thyme">Thyme</string>
+    <string name="oregano">Oregano</string>
+    <string name="mint">Mint</string>
+    <string name="strawberries">Strawberries</string>
+    <string name="lettuce">Lettuce</string>
+    <string name="green_beans">Green Beans</string>
+    <string name="cucumbers">Cucumbers</string>
+    <string name="eggplant">Eggplant</string>
+    <string name="potatoes">Potatoes</string>
+
+    <string name="channel_name">Forest Gardening Notifications</string>
+    <string name="channel_description">Notifications for the Forest Gardening app</string>
+    <string name="temp">%1$s°C</string>
 </resources>
